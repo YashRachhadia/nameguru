@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./components/Header/Header";
+import ResultsContainer from "./components/ResultsContainer/ResultsContainer";
+import SearchBox from "./components/SearchBox/SearchBox";
+import name from "@rstacruz/startup-name-generator";
 
-function App() {
+const App = () => {
+  const [headerExpanded, setHeaderExpanded] = useState(true);
+  const [results, setResults] = useState([]);
+
+  const handleInputChange = (inputText) => {
+    setResults(inputText ? name(inputText) : []);
+    setHeaderExpanded(!inputText);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header headerExpanded={headerExpanded} />
+      <SearchBox handleInputChange={handleInputChange} />
+      <ResultsContainer results={results} />
     </div>
   );
-}
+};
 
 export default App;

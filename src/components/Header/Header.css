@@ -1,0 +1,49 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.hero-image {
+  width: auto;
+  transition: max-width 1.5s, min-width 1.5s;
+}
+
+.hero-image-expanded {
+  min-width: 14rem;
+  max-width: 16rem;
+}
+
+.hero-image-contracted {
+  max-width: 5rem;
+  min-width: 3rem;
+}
+
+.header-text {
+  font-family: "Staatliches", cursive;
+  margin: 1rem 0rem 2rem 0;
+  letter-spacing: 0.5rem;
+  transition: font-size 1s;
+  font-weight: 200;
+}
+
+.header-text-expanded {
+  font-size: 4rem;
+}
+
+.header-text-contracted {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  html {
+    font-size: 50%;
+  }
+}

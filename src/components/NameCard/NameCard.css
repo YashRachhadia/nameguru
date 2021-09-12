@@ -1,0 +1,25 @@
+.result-name-card {
+  color: #e7e9f0;
+  background: #282d4f;
+  margin: 1rem;
+  min-width: 5rem;
+  padding: 1rem 1.8rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.1);
+  transition: background 0.4s;
+  text-align: center;
+}
+
+.result-name-card:hover {
+  background: #4a5079;
+  box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.result-name {
+  margin: 0;
+  font-weight: 100;
+}
+
+.card-link {
+  text-decoration: none;
+}
