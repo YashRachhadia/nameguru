@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nameguru/static/css/main.22600287.chunk.css",
+    "main.js": "/nameguru/static/js/main.9331f7c6.chunk.js",
+    "main.js.map": "/nameguru/static/js/main.9331f7c6.chunk.js.map",
+    "runtime-main.js": "/nameguru/static/js/runtime-main.65b657ba.js",
+    "runtime-main.js.map": "/nameguru/static/js/runtime-main.65b657ba.js.map",
+    "static/js/2.3bd89127.chunk.js": "/nameguru/static/js/2.3bd89127.chunk.js",
+    "static/js/2.3bd89127.chunk.js.map": "/nameguru/static/js/2.3bd89127.chunk.js.map",
+    "static/js/3.6e024457.chunk.js": "/nameguru/static/js/3.6e024457.chunk.js",
+    "static/js/3.6e024457.chunk.js.map": "/nameguru/static/js/3.6e024457.chunk.js.map",
+    "index.html": "/nameguru/index.html",
+    "static/css/main.22600287.chunk.css.map": "/nameguru/static/css/main.22600287.chunk.css.map",
+    "static/js/2.3bd89127.chunk.js.LICENSE.txt": "/nameguru/static/js/2.3bd89127.chunk.js.LICENSE.txt",
+    "static/media/heroImage.f149f6e9.svg": "/nameguru/static/media/heroImage.f149f6e9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65b657ba.js",
+    "static/js/2.3bd89127.chunk.js",
+    "static/css/main.22600287.chunk.css",
+    "static/js/main.9331f7c6.chunk.js"
+  ]
+}
